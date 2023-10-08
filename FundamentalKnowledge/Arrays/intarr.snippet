@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>Integer Array</Title>
+			<Author>Vladislav Tsekov</Author>
+			<Description>Creates a ready-to-use array, read from the console with int variable.</Description>
+			<Shortcut>inta</Shortcut>
+		</Header>
+		<Snippet>
+			<Code Language="CSharp">
+				int[] array = Console.ReadLine()
+				.Split(" ")
+				.Select(int.Parse)
+				.ToArray();
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
