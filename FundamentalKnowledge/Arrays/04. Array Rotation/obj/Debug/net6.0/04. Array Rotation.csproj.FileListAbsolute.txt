@@ -1,0 +1,15 @@
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\bin\Debug\net6.0\04. Array Rotation.exe
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\bin\Debug\net6.0\04. Array Rotation.deps.json
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\bin\Debug\net6.0\04. Array Rotation.runtimeconfig.json
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\bin\Debug\net6.0\04. Array Rotation.dll
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\bin\Debug\net6.0\04. Array Rotation.pdb
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\obj\Debug\net6.0\04. Array Rotation.csproj.AssemblyReference.cache
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\obj\Debug\net6.0\04. Array Rotation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\obj\Debug\net6.0\04. Array Rotation.AssemblyInfoInputs.cache
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\obj\Debug\net6.0\04. Array Rotation.AssemblyInfo.cs
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\obj\Debug\net6.0\04. Array Rotation.csproj.CoreCompileInputs.cache
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\obj\Debug\net6.0\04. Array Rotation.dll
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\obj\Debug\net6.0\refint\04. Array Rotation.dll
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\obj\Debug\net6.0\04. Array Rotation.pdb
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\obj\Debug\net6.0\04. Array Rotation.genruntimeconfig.cache
+C:\Users\tseko\OneDrive\Documents\SoftUni\Arrays - Exercise\04. Array Rotation\obj\Debug\net6.0\ref\04. Array Rotation.dll
