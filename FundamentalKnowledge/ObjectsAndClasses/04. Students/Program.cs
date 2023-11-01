@@ -1,50 +1,46 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace _04._Students
+﻿namespace _04._Students
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int studentsCnt = int.Parse(Console.ReadLine());
+            string cmd = "";
 
-            List<Student> students = new List<Student>();
+            List<Students> allStudents = new List<Students>();
 
-            for (int i = 0; i < studentsCnt; i++) 
+            while ((cmd = Console.ReadLine()) != "end")
             {
-                string generalInfo = Console.ReadLine();
-                string[] studentData = generalInfo.Split(" ", StringSplitOptions.RemoveEmptyEntries);
-                string firstName = studentData[0];
-                string lastName = studentData[1];
-                double grade = double.Parse(studentData[2]);
+                string[] cmdArgs = cmd.Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
-                Student student = new Student()
-                {
-                    FirstName = firstName,
-                    LastName = lastName,
-                    Grade = grade,
-                };
-                
-                students.Add(student);
+                Students student = new Students();
+
+                student.FirstName = cmdArgs[0];
+                student.LastName = cmdArgs[1];
+                student.Age = int.Parse(cmdArgs[2]);
+                student.Hometown = cmdArgs[3];
+
+                allStudents.Add(student);
             }
 
-            foreach (var student in students.OrderByDescending(x => x.Grade))
+            string searchedCity = Console.ReadLine();
+
+            foreach (Students student in allStudents)
             {
-                Console.WriteLine($"{student.FirstName} {student.LastName}: {student.Grade:f2}");
-            }   
+                if (student.Hometown == searchedCity)
+                {
+                    Console.WriteLine($"{student.FirstName} {student.LastName} is {student.Age} years old.");
+                }
+            }
+
         }
     }
 
-    public class Student
-    { 
-    
+    public class Students
+    {
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public double Grade { get; set; }
-
-
-
+        public int Age { get; set; }
+        public string Hometown { get; set; }
     }
+
 }
